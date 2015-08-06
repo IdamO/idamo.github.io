@@ -286,20 +286,27 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#forkme_banner1 {
-  display: block;
-  position: static;
-  top:0;
-  right: 0px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  background: #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  color:#ffffff;
-  border-color:#2B4978;
+#simple_blue {
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;	   
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    padding: 19px 39px 18px;
+    font-size: 18px;
+    border-color: #326E99;
+    background-color: #3F8ABF;
 }
 
 #header_wrap {
