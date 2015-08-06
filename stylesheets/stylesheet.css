@@ -294,15 +294,16 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   font-style: normal;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  text-decoration: none;
-  text-overflow: ellipsis;
+  text-decoration: none;;
   transition: all 200ms ease-in-out 0s;
   white-space: nowrap;	
-  font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+  /*font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;*/
   font-weight: 700;	
   padding: 10px 50px 10px 10px;
   /*font-size: 18px;*/
