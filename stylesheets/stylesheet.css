@@ -288,19 +288,18 @@ Full-Width Styles
 
 #forkme_banner1 {
   display: block;
-  position: absolute;
+  position: relative;
   top:0;
-  right: 10px;
+  right: 0px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
-  background: #2090ff no-repeat 95% 50%;
+  /*padding: 10px 50px 10px 10px;*/
+  background: url('https://cloud.githubusercontent.com/assets/13319677/9093919/e7ed75ac-3b7c-11e5-94d9-ea31c12bacee.png') #0090ff no-repeat 95% 50%;
   font-weight: 750;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   color:#2B4978;
   border-color:#2B4978;
-  background:0 0
 }
 
 #header_wrap {
