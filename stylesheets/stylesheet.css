@@ -303,10 +303,10 @@ Full-Width Styles
   white-space: nowrap;	
   font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
   font-weight: 700;	
-  padding: 19px 39px 18px;
-  font-size: 18px;
+  padding: 10px 50px 10px 10px;
+  /*font-size: 18px;*/
   border-color: #326E99;
-  background-color: #3F8ABF;
+  background-color: #0090ff;
 }
 
 #header_wrap {
