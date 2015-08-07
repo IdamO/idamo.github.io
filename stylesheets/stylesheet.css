@@ -311,24 +311,6 @@ Full-Width Styles
   background-color: #0090ff;
 }
 
-/* Float */
-
-#test_button {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-test_button:hover,
-test_button:focus,
-test_button:active {
-  transform: translateY(-8px);
-}
 
 #header_wrap {
   background: #212121;
