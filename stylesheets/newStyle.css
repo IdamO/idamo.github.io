@@ -33,7 +33,7 @@ body {
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0x40,0x99,0xFF,0.7);
 }
 
 .btn-light {
@@ -271,6 +271,6 @@ footer .footer-col {
   border-bottom-right-radius: 2px;
 }
 #forkme_banner:hover{
-    background:#4099FF;
+    background: url('../images/blacktocat.png') #4099FF no-repeat 95% 50%;
 }
 /*Low qual empire state: https://cloud.githubusercontent.com/assets/13319677/9422711/5401c608-4866-11e5-9a96-6836d77b9761.jpg*/
