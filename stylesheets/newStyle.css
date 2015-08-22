@@ -157,7 +157,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    /*low qual*/background: url("https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg") no-repeat center center scroll;
+    /*low qual*/background: url("https://cloud.githubusercontent.com/assets/13319677/9425952/0d273350-48eb-11e5-8730-fda22cb9e03b.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -276,4 +276,6 @@ footer .footer-col {
     background-color: rgba(64,153,255, 0.7);
     
 }
+/*Non-Blurry: https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg*/
+/*Blurry: https://cloud.githubusercontent.com/assets/13319677/9425952/0d273350-48eb-11e5-8730-fda22cb9e03b.jpg*/
 /*Low qual empire state: https://cloud.githubusercontent.com/assets/13319677/9422711/5401c608-4866-11e5-9a96-6836d77b9761.jpg*/
