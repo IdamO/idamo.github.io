@@ -26,14 +26,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(64,153,255,0.7);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(64,153,255,0.7);
+    background-color: rgba(64,153,255,0.9);
 }
 
 .btn-light {
