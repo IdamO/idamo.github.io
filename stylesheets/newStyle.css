@@ -33,7 +33,7 @@ body {
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0x40,0x99,0xFF,0.7);
+    background-color: rgba(64,153,255,0.7);
 }
 
 .btn-light {
@@ -141,7 +141,7 @@ hr.small {
     margin-right: auto;
     color: #FFF; 
     /*background-color:rgba(255,255,255,0.75);*/
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.8);
     width: 600px;
     border-radius: 10px;
 }
