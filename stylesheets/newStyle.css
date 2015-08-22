@@ -26,7 +26,7 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .btn-dark:hover,
@@ -264,13 +264,16 @@ footer .footer-col {
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #333333 no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') no-repeat 95% 50%;
+  background-color: rgba(0,0,0,0.8);
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 #forkme_banner:hover{
-    background: url('../images/blacktocat.png') #4099FF no-repeat 95% 50%;
+    background: url('../images/blacktocat.png') no-repeat 95% 50%;
+    background-color: rgba(64,153,255, 0.8);
+    
 }
 /*Low qual empire state: https://cloud.githubusercontent.com/assets/13319677/9422711/5401c608-4866-11e5-9a96-6836d77b9761.jpg*/
