@@ -142,8 +142,8 @@ hr.small {
     color: #FFF; 
     /*background-color:rgba(255,255,255,0.75);*/
     background-color:rgba(0,0,0,0.8);
-    width: 600px;
-    border-radius: 10px;
+    width: 37.5%;
+    border-radius: 0.625%;
 }
 
 .toggle {
