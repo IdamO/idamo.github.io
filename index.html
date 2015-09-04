@@ -262,6 +262,35 @@ Technical Support Assistant – M.D. Anderson Library Learning Commons
         <!-- /.container -->
     </section>
     </center>
+    
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
 <!--<div class="primary neu">
 <p>Have a Spotify account? Listen:</p>
 <iframe src="https://embed.spotify.com/track/3NBDgwEAGMj0aKRsU8zoO9" width="1200" height="80" frameborder="0" allowtransparency="true"></iframe>
@@ -269,7 +298,7 @@ Technical Support Assistant – M.D. Anderson Library Learning Commons
 <div class="clear"></div>
 </div>-->
 <footer>
-      <p>Idam E. Obiahu</p>
+      <center><p>Idam E. Obiahu</p></center>
 </footer>
 </body>
 </html>
