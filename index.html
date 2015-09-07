@@ -54,30 +54,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
 <meta name="twitter:domain" content="Idam E. Obiahu"/>
 <meta name="twitter:creator" content=""/>
 
-<style>
-#click {
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
-  border-radius: 11px;
-  font-family: Courier New;
-  color: #ffffff;
-  font-size: 20px;
-  background: #000000;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-#click:hover {
-  background: #878487;
-  text-decoration: none;
-}
-</style>
-
 <div class="is_mobile"></div>
 </head>
 <body>
       
 <!-- Navigation -->
     <!-- Navigation -->
+    <a href="#" class="scrollToTop"></a>
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -290,7 +273,26 @@ Technical Support Assistant – M.D. Anderson Library Learning Commons
                 }
             }
         });
-    });
+    })
+    
+    $(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+      });;
     </script>
 <!--<div class="primary neu">
 <p>Have a Spotify account? Listen:</p>
