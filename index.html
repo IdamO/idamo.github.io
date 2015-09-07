@@ -60,11 +60,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
       
 <!-- Navigation -->
     <!-- Navigation -->
-    <div class="scrollToTop">
-    <a href=#>
-        <img src="http://codeitdown.com/media/Home_Icon.svg" alt="Home" />
-    </a>
-</div>
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -278,25 +273,6 @@ Technical Support Assistant – M.D. Anderson Library Learning Commons
             }
         });
     })
-    
-    $(document).ready(function(){
-	
-	//Check to see if the window is top if not then display button
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-	
-      });;
     </script>
 <!--<div class="primary neu">
 <p>Have a Spotify account? Listen:</p>
