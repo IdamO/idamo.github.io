@@ -278,7 +278,7 @@ footer .footer-col {
 
 #forkme_banner {
   display: block;
-  position: absolute;
+  position: fixed;
   top:0;
   right: 3.438%;
   z-index: 10;
