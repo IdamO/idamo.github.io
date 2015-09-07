@@ -297,7 +297,7 @@ footer .footer-col {
     background-color: rgba(64,153,255, 0.7);
 }
 
-.round-button {
+.scrollToTop {
     position: absolute;
     left: 5%;
     top: 2%;
@@ -310,10 +310,10 @@ footer .footer-col {
     background: #000000;
     box-shadow: 0 0 3px gray;
 }
-.round-button:hover {
+.scrollToTop:hover {
     background: rgba(64,153,255, 0.7);
 }
-.round-button img {
+.scrollToTop img {
     display: block;
     width: 76%;
     padding: 12%;
