@@ -207,7 +207,7 @@ hr.small {
     width: 100%;
     height: 75%;
     color: #fff;
-    background: url("https://cloud.githubusercontent.com/assets/13319677/9781153/cee13904-5756-11e5-8b79-d424f8679a40.jpg") no-repeat center center scroll;
+    background: url("https://cloud.githubusercontent.com/assets/13319677/9781153/cee13904-5756-11e5-8b79-d424f8679a40.jpg") no-repeat center center scroll rgba(0,0,0,0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
