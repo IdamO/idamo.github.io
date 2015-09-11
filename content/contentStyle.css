@@ -168,7 +168,8 @@ hr.small {
     position: relative;
     width: 100%;
     height: 25%;
-    /*low qual*/background: url("https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg") no-repeat center center scroll;
+    background: url("https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg") no-repeat center center scroll;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
