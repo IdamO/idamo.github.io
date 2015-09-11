@@ -1,0 +1,304 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 450%;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(64,153,255,0.7);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(64,153,255,0.9);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 6.25%;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 15.625%;
+    height: 100%;
+    margin-right: -15.625%;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 15.625%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 1.25%;
+    line-height: 2.5%;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 3.438%;
+    font-size: 1.125%;
+    line-height: 3.438%;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 15.625%;
+    width: 15.625%;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#headerTitle{
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF; 
+    /*background-color:rgba(255,255,255,0.75);*/
+    background-color:rgba(0,0,0,0.8);
+    /*width: 50%;*/
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#resourceTitle{
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF; 
+    /*background-color:rgba(255,255,255,0.75);*/
+    background-color:rgba(0,0,0,0.5);
+    width: 37.5%;
+    border-radius: 10px;
+}
+
+.toggle {
+    margin: 0.3% 0.3% 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*low qual*/background: url("https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 3.125% 0;
+}
+
+/* Services */
+
+.services {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("https://cloud.githubusercontent.com/assets/13319677/9615974/32c1b148-50c1-11e5-8c40-633260837b07.jpeg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 3.125% 0;
+}
+
+.service-item {
+    margin-bottom: 1.875%;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 75%;
+    color: #fff;
+    font-size: 34px;
+    background: url("https://cloud.githubusercontent.com/assets/13319677/9781153/cee13904-5756-11e5-8b79-d424f8679a40.jpg") no-repeat center center scroll;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 3.125% 0;
+}
+
+.portfolio-item {
+    margin-bottom: 1.875%;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 3.125% 0;
+}
+
+.call-to-action .btn {
+    margin: 0.625%;
+}
+
+/* Map */
+
+.map {
+    height: 31.25%;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 2.25% 0;
+}
+
+footer .footer-col {
+    margin-bottom: 3.125%;
+}
+
+
+.btn-social {
+    display: inline-block;
+    width: 2.813%;
+    height: 1.563%;
+    border: 0.125% solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2.188%;
+    line-height: 2.813%;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 2.438%;
+  z-index: 10;
+  padding: 0.625% 3.125% 0.625% 0.625%;
+  color: #fff;
+  background: url('../images/blacktocat.png') no-repeat 95% 50%;
+  background-color: rgba(0,0,0,0.8);
+  background-size: 17.5% 75%;
+  font-weight: 700;
+  box-shadow: 0 0 0.625% rgba(0,0,0,.5);
+  border-bottom-left-radius: 0.125%;
+  border-bottom-right-radius: 0.125%;
+}
+#forkme_banner:hover{
+    background: url('../images/blacktocat.png') no-repeat 95% 50%;
+    background-color: rgba(64,153,255, 0.7);
+}
+
+/*Non-Blurry: https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg*/
+/*Blurry: https://cloud.githubusercontent.com/assets/13319677/9425970/c9ba5aa6-48eb-11e5-9dab-cb4d0bce9734.jpg*/
+/*Low qual empire state: https://cloud.githubusercontent.com/assets/13319677/9422711/5401c608-4866-11e5-9a96-6836d77b9761.jpg*/
