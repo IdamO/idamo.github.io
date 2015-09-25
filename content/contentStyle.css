@@ -300,14 +300,14 @@ footer .footer-col {
     background-color: rgba(64,153,255, 0.7);
 }
 
-@media only screen and (min-width: 1280px) { body.toc2 { padding-left: 20em; background: rgba(255,255,255,1); }
-  #toc.toc2 { position: fixed; width: 20em; left: 0; top: 0; border-right: 1px solid #ebebeb; border-bottom: 0; z-index: 1000; padding: 1em; height: 100%; overflow: auto;background: rgba(255,255,255,1); }
-  #toc.toc2 #toctitle { margin-top: 0;background: rgba(255,255,255,1); }
-  #toc.toc2 > ul { font-size: .95em; background: rgba(255,255,255,1);}
-  #toc.toc2 ul ul { margin-left: 0; padding-left: 1.25em; background: rgba(255,255,255,1);}
-  #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; background: rgba(255,255,255,1);}
-  body.toc2.toc-right { padding-left: 0; padding-right: 20em; background: rgba(255,255,255,1);}
-  body.toc2.toc-right #toc.toc2 { border-right: 0; border-left: 1px solid #ebebeb; left: auto; right: 0;background: rgba(255,255,255,1); } }
+@media only screen and (min-width: 1280px) { body.toc2 { padding-left: 20em; background: rgba(255,255,255,0.8); }
+  #toc.toc2 { position: fixed; width: 20em; left: 0; top: 0; border-right: 1px solid #ebebeb; border-bottom: 0; z-index: 1000; padding: 1em; height: 100%; overflow: auto;background: rgba(255,255,255,0.8); }
+  #toc.toc2 #toctitle { margin-top: 0;background: rgba(255,255,255,0.8); }
+  #toc.toc2 > ul { font-size: .95em; background: rgba(255,255,255,0.8);}
+  #toc.toc2 ul ul { margin-left: 0; padding-left: 1.25em; background: rgba(255,255,255,0.8);}
+  #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; background: rgba(255,255,255,0.8);}
+  body.toc2.toc-right { padding-left: 0; padding-right: 20em; background: rgba(255,255,255,0.8);}
+  body.toc2.toc-right #toc.toc2 { border-right: 0; border-left: 1px solid #ebebeb; left: auto; right: 0;background: rgba(255,255,255,0.8); } }
 
 /*Non-Blurry: https://cloud.githubusercontent.com/assets/13319677/9422746/ea5e7780-4867-11e5-87c2-0040226acd3f.jpg*/
 /*Blurry: https://cloud.githubusercontent.com/assets/13319677/9425970/c9ba5aa6-48eb-11e5-9dab-cb4d0bce9734.jpg*/
