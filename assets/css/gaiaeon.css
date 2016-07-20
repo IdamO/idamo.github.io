@@ -2635,7 +2635,7 @@ a,
     padding: 0 !important;
   }
   .section-header .parallax, .section-header .static-image {
-    height: 80vh;
+    height: 100vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
     height: 80vh;
@@ -4089,13 +4089,14 @@ mark {
 }
 /* small - tablets */
 @media (max-width: 768px) {
-	.container { max-width: 100%; }
+	.container { max-width: 100%;}
 	div[class~="sm"] {
 		width: 100% !important;
 	}
 	.sm-add { display: inline; }
 	.sm-remove { display: none; }
-
+  
+  
 	#header h1 {
 		font-size: 3rem;
 	}
